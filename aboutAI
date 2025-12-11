@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI에 대한 간단한 소개</title>
+    <style>
+        a{text-decoration: none;}
+        body {
+            margin: 0;
+            font-family: "Arial", sans-serif;
+            background-color: #f5f5f5;
+        }
+
+        header {
+            background: linear-gradient(120deg, #4a6cf7, #6e9bf7);
+            padding: 60px 20px;
+            text-align: center;
+            color: white;
+        }
+
+        header h1 {
+            font-size: 48px;
+            margin: 0;
+        }
+
+        header p {
+            font-size: 20px;
+            opacity: 0.9;
+        }
+
+        .section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        #section1{background-color: #8399ee;}
+
+        .section h2 {
+            font-size: 32px;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        #section2{background-color: #b1bef5;}
+
+        #section3{background-color: #c9d1f1;}
+        .card-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 25px;
+            padding-top: 20px;
+        }
+
+        .card {
+            width: 300px;
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            transition: transform 0.2s;
+        }
+
+        .card:hover {
+            transform: translate(5px, -5px);
+            color:rgba(245, 185, 75);
+        }
+
+        .card h3 {
+            margin-top: 0;
+            color: #4a6cf7;
+        }
+
+        h3 a{color:#4a6cf7;}
+
+        footer {
+            background: #f5f5f5 ;
+            color: #333;
+            text-align: center;
+            padding: 30px 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Hero Section -->
+    <header>
+        <h1>최첨단 AI 기술의 시대</h1>
+        <p>인공지능이 만들어가는 더 스마트한 세상을 경험해보세요.</p>
+    </header>
+
+    <!-- AI 소개 -->
+    <div class="section" id="section1">
+        <h2>AI는 무엇을 할 수 있을까요?</h2>
+        <p>인공지능은 인간의 능력을 확장하고, 우리의 삶을 더 편리하고 효율적으로 만들어줍니다.</p>
+    </div>
+
+    <!-- AI 강점 카드 -->
+    <div class="section" id="section2">
+        <h2>AI의 놀라운 기능</h2>
+
+        <div class="card-container">
+
+            <div class="card">
+                <h3><a href="https://www.google.com/search?q=ai%EC%9D%98+%EC%A0%95%EA%B5%90%ED%95%9C+%EB%B6%84%EC%84%9D+%EB%8A%A5%EB%A0%A5+%EB%82%B4%EC%9A%A9&sca_esv=8ab2282fee241d3c&hl=ko&sxsrf=AE3TifOc3LHYwmJZ0MRSIX1dyAGNWpuZNA%3A1765430798731&source=hp&ei=DlY6aYXpKfDh1e8Pl5r5wAk&iflsig=AOw8s4IAAAAAaTpkHszj_M9ToNyNdr-8ASkzy0Cqzk02&ved=0ahUKEwiFqIad5rSRAxXwcPUHHRdNHpgQ4dUDCBo&uact=5&oq=ai%EC%9D%98+%EC%A0%95%EA%B5%90%ED%95%9C+%EB%B6%84%EC%84%9D+%EB%8A%A5%EB%A0%A5+%EB%82%B4%EC%9A%A9&gs_lp=Egdnd3Mtd2l6IiRhaeydmCDsoJXqtZDtlZwg67aE7ISdIOuKpeugpSDrgrTsmqkyBRAhGKABMgUQIRigATIFECEYoAFI64MoUO0JWLaBKHAReACQAQGYAaoBoAHCGKoBBDEuMjO4AQPIAQD4AQH4AQKYAiSgArgUqAIKwgIHECMYJxjqAsICDRAjGPAFGCcYyQIY6gLCAg0QLhjRAxjHARgnGOoCwgIEECMYJ8ICChAjGIAEGCcYigXCAhEQLhiABBixAxjRAxiDARjHAcICDRAuGIAEGNEDGMcBGArCAgsQABiABBixAxiDAcICBRAuGIAEwgIOEC4YgAQYsQMY0QMYxwHCAgQQABgDwgIFEAAYgATCAgcQABiABBgKwgIQECMY8AUYgAQYJxjJAhiKBcICCxAuGIAEGNEDGMcBwgIIEAAYgAQYsQPCAggQABiABBiiBMICBRAAGO8FwgIHEAAYgAQYE8ICCRAAGIAEGBMYCpgDB_EF_CU-byIAeueSBwUxOC4xOKAHgZoBsgcEMS4xOLgH_xPCBwkxLjE1LjE2LjTIB40BgAgA&sclient=gws-wiz">🎯 정교한 분석 능력</a></h3>
+                <p>대규모 데이터를 단 몇 초 만에 분석해 인사이트를 도출합니다.</p>
+            </div>
+
+            <div class="card">
+                <h3><a href="https://www.google.com/search?q=ai%EC%9D%98+%EC%B4%88%EA%B3%A0%EC%86%8D+%EC%B2%98%EB%A6%AC+%EC%86%8D%EB%8F%84&sca_esv=8ab2282fee241d3c&hl=ko&sxsrf=AE3TifMfzrQbE8rsAOJtAraz9JvG0zKRbQ%3A1765438824468&ei=aHU6aZqmHKzj1e8P0834kAo&ved=0ahUKEwia-oSQhLWRAxWscfUHHdMmHqIQ4dUDCBE&uact=5&oq=ai%EC%9D%98+%EC%B4%88%EA%B3%A0%EC%86%8D+%EC%B2%98%EB%A6%AC+%EC%86%8D%EB%8F%84&gs_lp=Egxnd3Mtd2l6LXNlcnAiHWFp7J2YIOy0iOqzoOyGjSDsspjrpqwg7IaN64-EMgUQIRigATIFECEYoAFIjAtQswNYswNwAXgBkAEAmAGqAaABqgGqAQMwLjG4AQPIAQD4AQL4AQGYAgKgArsBwgIKEAAYsAMY1gQYR5gDAIgGAZAGCpIHAzEuMaAH3QKyBwMwLjG4B7UBwgcDMi0yyAcJgAgA&sclient=gws-wiz-serp">⚡ 초고속 처리 속도</a></h3>
+                <p>인간이 몇 시간 걸리는 작업도 AI는 몇 초 안에 처리할 수 있습니다.</p>
+            </div>
+
+            <div class="card">
+                <h3><a href="https://www.google.com/search?q=ai%EC%9D%98+%EC%9E%90%EC%9C%A8%EC%A0%81+%ED%95%99%EC%8A%B5&sca_esv=8ab2282fee241d3c&hl=ko&sxsrf=AE3TifN3WVrEJ4StZVy-_LBNnZ5a6JWWsA%3A1765438902586&ei=tnU6aZ3BI4_j1e8P0O6ZmAk&ved=0ahUKEwid9KS1hLWRAxWPcfUHHVB3BpMQ4dUDCBE&uact=5&oq=ai%EC%9D%98+%EC%9E%90%EC%9C%A8%EC%A0%81+%ED%95%99%EC%8A%B5&gs_lp=Egxnd3Mtd2l6LXNlcnAiFmFp7J2YIOyekOycqOyggSDtlZnsirUyBRAhGKABSOQJUH5YfnABeACQAQCYAZ4BoAGeAaoBAzAuMbgBA8gBAPgBAvgBAZgCAqACowHCAggQABiwAxjvBcICCxAAGLADGKIEGIkFwgILEAAYgAQYsAMYogSYAwCIBgGQBgWSBwMxLjGgB9EBsgcDMC4xuAegAcIHAzEuMcgHAoAIAA&sclient=gws-wiz-serp">🤖 자율적 학습</a></h3>
+                <p>AI는 스스로 학습하며 점점 더 똑똑해집니다.</p>
+            </div>
+
+            <div class="card">
+                <h3><a href="https://www.google.com/search?q=ai%EC%9D%98+%EC%9E%90%EC%97%B0%EC%8A%A4%EB%9F%AC%EC%9A%B4+%EB%8C%80%ED%99%94+%EB%8A%A5%EB%A0%A5&sca_esv=8ab2282fee241d3c&hl=ko&sxsrf=AE3TifMXVIy32edkOFcTMAI65g-wR7iyGA%3A1765438945410&ei=4XU6aaDiGL_91e8Pp__SiQk&ved=0ahUKEwjg1trJhLWRAxW_fvUHHae_NJEQ4dUDCBE&uact=5&oq=ai%EC%9D%98+%EC%9E%90%EC%97%B0%EC%8A%A4%EB%9F%AC%EC%9A%B4+%EB%8C%80%ED%99%94+%EB%8A%A5%EB%A0%A5&gs_lp=Egxnd3Mtd2l6LXNlcnAiI2Fp7J2YIOyekOyXsOyKpOufrOyatCDrjIDtmZQg64ql66ClMgUQIRigATIFECEYoAEyBRAhGKABSKwLUMgDWMgDcAF4AJABAJgBpwGgAacBqgEDMC4xuAEDyAEA-AEC-AEBmAICoAK2AcICCBAAGLADGO8FwgILEAAYgAQYsAMYogSYAwCIBgGQBgWSBwMxLjGgB-YDsgcDMC4xuAezAcIHBTAuMS4xyAcHgAgA&sclient=gws-wiz-serp">💬 자연스러운 대화 능력</a></h3>
+                <p>사람처럼 대화를 이해하고 자연스러운 문장을 생성합니다.</p>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- 미래 -->
+    <div class="section" id="section3">
+        <h2>AI가 만들어갈 미래</h2>
+        <p>AI는 의료, 교육, 산업, 예술 등 다양한 분야에서 혁신을 이끌고 있습니다.<br>
+           앞으로의 세상은 AI와 함께 더 빠르게 발전할 것입니다.</p>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        © 2025 AI TECH — 인공지능이 혁신을 만듭니다.<br>최영윤
+    </footer>
+</body>
+</html>
